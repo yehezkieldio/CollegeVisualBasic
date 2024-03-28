@@ -86,6 +86,12 @@
     <Compile Include="Beranda.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Latihan2.Designer.vb">
+      <DependentUpon>Latihan2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Latihan2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Tugas1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Beranda.resx">
       <DependentUpon>Beranda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Latihan2.resx">
+      <DependentUpon>Latihan2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tugas1.resx">
       <DependentUpon>Tugas1.vb</DependentUpon>

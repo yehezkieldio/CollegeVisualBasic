@@ -6,4 +6,8 @@
     Private Sub Tugas2ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Tugas2ToolStripMenuItem.Click
         Tugas2.Show()
     End Sub
+
+    Private Sub Latihan2ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Latihan2ToolStripMenuItem.Click
+        Latihan2.Show()
+    End Sub
 End Class

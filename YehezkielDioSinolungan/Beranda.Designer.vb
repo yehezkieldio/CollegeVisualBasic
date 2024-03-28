@@ -28,12 +28,14 @@ Partial Class Beranda
         Me.Tugas2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.LatihanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Latihan2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TugasToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TugasToolStripMenuItem, Me.LatihanToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -50,13 +52,13 @@ Partial Class Beranda
         'Tugas1ToolStripMenuItem
         '
         Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
-        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
         Me.Tugas1ToolStripMenuItem.Text = "Tugas 1"
         '
         'Tugas2ToolStripMenuItem
         '
         Me.Tugas2ToolStripMenuItem.Name = "Tugas2ToolStripMenuItem"
-        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
         Me.Tugas2ToolStripMenuItem.Text = "Tugas 2"
         '
         'Label1
@@ -76,6 +78,19 @@ Partial Class Beranda
         Me.Label2.Size = New System.Drawing.Size(138, 13)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Selamat datang di Beranda!"
+        '
+        'LatihanToolStripMenuItem
+        '
+        Me.LatihanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Latihan2ToolStripMenuItem})
+        Me.LatihanToolStripMenuItem.Name = "LatihanToolStripMenuItem"
+        Me.LatihanToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
+        Me.LatihanToolStripMenuItem.Text = "Latihan"
+        '
+        'Latihan2ToolStripMenuItem
+        '
+        Me.Latihan2ToolStripMenuItem.Name = "Latihan2ToolStripMenuItem"
+        Me.Latihan2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Latihan2ToolStripMenuItem.Text = "Latihan 2"
         '
         'Beranda
         '
@@ -101,4 +116,6 @@ Partial Class Beranda
     Friend WithEvents Tugas2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents LatihanToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Latihan2ToolStripMenuItem As ToolStripMenuItem
 End Class
