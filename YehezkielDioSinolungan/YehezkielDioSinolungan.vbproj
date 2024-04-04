@@ -139,6 +139,30 @@
     <Compile Include="Tugas2_TimerDanTimerPicker.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Tugas3.Designer.vb">
+      <DependentUpon>Tugas3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tugas3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum5_Form3.Designer.vb">
+      <DependentUpon>Tugas3_Praktikum5_Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum5_Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum5_Prak3.Designer.vb">
+      <DependentUpon>Tugas3_Praktikum5_Prak3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum5_Prak3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum_5_Form2.Designer.vb">
+      <DependentUpon>Tugas3_Praktikum_5_Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum_5_Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Beranda.resx">
@@ -167,6 +191,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tugas2_TimerDanTimerPicker.resx">
       <DependentUpon>Tugas2_TimerDanTimerPicker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tugas3.resx">
+      <DependentUpon>Tugas3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tugas3_Praktikum5_Form3.resx">
+      <DependentUpon>Tugas3_Praktikum5_Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tugas3_Praktikum5_Prak3.resx">
+      <DependentUpon>Tugas3_Praktikum5_Prak3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tugas3_Praktikum_5_Form2.resx">
+      <DependentUpon>Tugas3_Praktikum_5_Form2.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

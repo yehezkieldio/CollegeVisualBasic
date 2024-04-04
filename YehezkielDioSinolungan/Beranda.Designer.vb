@@ -26,10 +26,11 @@ Partial Class Beranda
         Me.TugasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Tugas1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Tugas2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.LatihanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Latihan2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Tugas3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -44,7 +45,7 @@ Partial Class Beranda
         '
         'TugasToolStripMenuItem
         '
-        Me.TugasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Tugas1ToolStripMenuItem, Me.Tugas2ToolStripMenuItem})
+        Me.TugasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Tugas1ToolStripMenuItem, Me.Tugas2ToolStripMenuItem, Me.Tugas3ToolStripMenuItem})
         Me.TugasToolStripMenuItem.Name = "TugasToolStripMenuItem"
         Me.TugasToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.TugasToolStripMenuItem.Text = "Tugas"
@@ -52,14 +53,27 @@ Partial Class Beranda
         'Tugas1ToolStripMenuItem
         '
         Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
-        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
+        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Tugas1ToolStripMenuItem.Text = "Tugas 1"
         '
         'Tugas2ToolStripMenuItem
         '
         Me.Tugas2ToolStripMenuItem.Name = "Tugas2ToolStripMenuItem"
-        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
+        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Tugas2ToolStripMenuItem.Text = "Tugas 2"
+        '
+        'LatihanToolStripMenuItem
+        '
+        Me.LatihanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Latihan2ToolStripMenuItem})
+        Me.LatihanToolStripMenuItem.Name = "LatihanToolStripMenuItem"
+        Me.LatihanToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
+        Me.LatihanToolStripMenuItem.Text = "Latihan"
+        '
+        'Latihan2ToolStripMenuItem
+        '
+        Me.Latihan2ToolStripMenuItem.Name = "Latihan2ToolStripMenuItem"
+        Me.Latihan2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Latihan2ToolStripMenuItem.Text = "Latihan 2"
         '
         'Label1
         '
@@ -79,18 +93,11 @@ Partial Class Beranda
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Selamat datang di Beranda!"
         '
-        'LatihanToolStripMenuItem
+        'Tugas3ToolStripMenuItem
         '
-        Me.LatihanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Latihan2ToolStripMenuItem})
-        Me.LatihanToolStripMenuItem.Name = "LatihanToolStripMenuItem"
-        Me.LatihanToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
-        Me.LatihanToolStripMenuItem.Text = "Latihan"
-        '
-        'Latihan2ToolStripMenuItem
-        '
-        Me.Latihan2ToolStripMenuItem.Name = "Latihan2ToolStripMenuItem"
-        Me.Latihan2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Latihan2ToolStripMenuItem.Text = "Latihan 2"
+        Me.Tugas3ToolStripMenuItem.Name = "Tugas3ToolStripMenuItem"
+        Me.Tugas3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Tugas3ToolStripMenuItem.Text = "Tugas 3"
         '
         'Beranda
         '
@@ -118,4 +125,5 @@ Partial Class Beranda
     Friend WithEvents Label2 As Label
     Friend WithEvents LatihanToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Latihan2ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Tugas3ToolStripMenuItem As ToolStripMenuItem
 End Class
