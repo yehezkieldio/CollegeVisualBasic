@@ -26,11 +26,16 @@ Partial Class Beranda
         Me.TugasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Tugas1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Tugas2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Tugas3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Praktikum5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LocalVariableToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GlobalVariableToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OperatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LatihanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Latihan2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Tugas3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Praktikum67ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -62,6 +67,38 @@ Partial Class Beranda
         Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Tugas2ToolStripMenuItem.Text = "Tugas 2"
         '
+        'Tugas3ToolStripMenuItem
+        '
+        Me.Tugas3ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Praktikum5ToolStripMenuItem, Me.Praktikum67ToolStripMenuItem})
+        Me.Tugas3ToolStripMenuItem.Name = "Tugas3ToolStripMenuItem"
+        Me.Tugas3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Tugas3ToolStripMenuItem.Text = "Tugas 3"
+        '
+        'Praktikum5ToolStripMenuItem
+        '
+        Me.Praktikum5ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LocalVariableToolStripMenuItem, Me.GlobalVariableToolStripMenuItem, Me.OperatorToolStripMenuItem})
+        Me.Praktikum5ToolStripMenuItem.Name = "Praktikum5ToolStripMenuItem"
+        Me.Praktikum5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Praktikum5ToolStripMenuItem.Text = "Praktikum 5"
+        '
+        'LocalVariableToolStripMenuItem
+        '
+        Me.LocalVariableToolStripMenuItem.Name = "LocalVariableToolStripMenuItem"
+        Me.LocalVariableToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LocalVariableToolStripMenuItem.Text = "Local Variable"
+        '
+        'GlobalVariableToolStripMenuItem
+        '
+        Me.GlobalVariableToolStripMenuItem.Name = "GlobalVariableToolStripMenuItem"
+        Me.GlobalVariableToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.GlobalVariableToolStripMenuItem.Text = "Global Variable"
+        '
+        'OperatorToolStripMenuItem
+        '
+        Me.OperatorToolStripMenuItem.Name = "OperatorToolStripMenuItem"
+        Me.OperatorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.OperatorToolStripMenuItem.Text = "Operator"
+        '
         'LatihanToolStripMenuItem
         '
         Me.LatihanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Latihan2ToolStripMenuItem})
@@ -72,7 +109,7 @@ Partial Class Beranda
         'Latihan2ToolStripMenuItem
         '
         Me.Latihan2ToolStripMenuItem.Name = "Latihan2ToolStripMenuItem"
-        Me.Latihan2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Latihan2ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.Latihan2ToolStripMenuItem.Text = "Latihan 2"
         '
         'Label1
@@ -93,11 +130,11 @@ Partial Class Beranda
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Selamat datang di Beranda!"
         '
-        'Tugas3ToolStripMenuItem
+        'Praktikum67ToolStripMenuItem
         '
-        Me.Tugas3ToolStripMenuItem.Name = "Tugas3ToolStripMenuItem"
-        Me.Tugas3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Tugas3ToolStripMenuItem.Text = "Tugas 3"
+        Me.Praktikum67ToolStripMenuItem.Name = "Praktikum67ToolStripMenuItem"
+        Me.Praktikum67ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Praktikum67ToolStripMenuItem.Text = "Praktikum 6-7"
         '
         'Beranda
         '
@@ -126,4 +163,9 @@ Partial Class Beranda
     Friend WithEvents LatihanToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Latihan2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Tugas3ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Praktikum5ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LocalVariableToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents GlobalVariableToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OperatorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Praktikum67ToolStripMenuItem As ToolStripMenuItem
 End Class
