@@ -31,11 +31,13 @@ Partial Class Beranda
         Me.LocalVariableToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GlobalVariableToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OperatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Praktikum67ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PercabanganIFToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LatihanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Latihan2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Praktikum67ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PercabanganBersarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -84,20 +86,33 @@ Partial Class Beranda
         'LocalVariableToolStripMenuItem
         '
         Me.LocalVariableToolStripMenuItem.Name = "LocalVariableToolStripMenuItem"
-        Me.LocalVariableToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LocalVariableToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.LocalVariableToolStripMenuItem.Text = "Local Variable"
         '
         'GlobalVariableToolStripMenuItem
         '
         Me.GlobalVariableToolStripMenuItem.Name = "GlobalVariableToolStripMenuItem"
-        Me.GlobalVariableToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.GlobalVariableToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.GlobalVariableToolStripMenuItem.Text = "Global Variable"
         '
         'OperatorToolStripMenuItem
         '
         Me.OperatorToolStripMenuItem.Name = "OperatorToolStripMenuItem"
-        Me.OperatorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.OperatorToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.OperatorToolStripMenuItem.Text = "Operator"
+        '
+        'Praktikum67ToolStripMenuItem
+        '
+        Me.Praktikum67ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PercabanganIFToolStripMenuItem, Me.PercabanganBersarangToolStripMenuItem})
+        Me.Praktikum67ToolStripMenuItem.Name = "Praktikum67ToolStripMenuItem"
+        Me.Praktikum67ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Praktikum67ToolStripMenuItem.Text = "Praktikum 6-7"
+        '
+        'PercabanganIFToolStripMenuItem
+        '
+        Me.PercabanganIFToolStripMenuItem.Name = "PercabanganIFToolStripMenuItem"
+        Me.PercabanganIFToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.PercabanganIFToolStripMenuItem.Text = "Percabangan IF"
         '
         'LatihanToolStripMenuItem
         '
@@ -130,11 +145,11 @@ Partial Class Beranda
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Selamat datang di Beranda!"
         '
-        'Praktikum67ToolStripMenuItem
+        'PercabanganBersarangToolStripMenuItem
         '
-        Me.Praktikum67ToolStripMenuItem.Name = "Praktikum67ToolStripMenuItem"
-        Me.Praktikum67ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Praktikum67ToolStripMenuItem.Text = "Praktikum 6-7"
+        Me.PercabanganBersarangToolStripMenuItem.Name = "PercabanganBersarangToolStripMenuItem"
+        Me.PercabanganBersarangToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.PercabanganBersarangToolStripMenuItem.Text = "Percabangan Bersarang"
         '
         'Beranda
         '
@@ -168,4 +183,6 @@ Partial Class Beranda
     Friend WithEvents GlobalVariableToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents OperatorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Praktikum67ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PercabanganIFToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PercabanganBersarangToolStripMenuItem As ToolStripMenuItem
 End Class

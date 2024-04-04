@@ -22,4 +22,12 @@
     Private Sub LocalVariableToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LocalVariableToolStripMenuItem.Click
         Tugas3_Praktikum5_Prak3.Show()
     End Sub
+
+    Private Sub PercabanganIFToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PercabanganIFToolStripMenuItem.Click
+        Tugas3_Praktikum6_7_IF_Condition.Show()
+    End Sub
+
+    Private Sub PercabanganBersarangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PercabanganBersarangToolStripMenuItem.Click
+        Tugas3_Praktikum6_7_Nested_IF.Show()
+    End Sub
 End Class

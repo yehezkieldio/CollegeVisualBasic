@@ -151,6 +151,18 @@
     <Compile Include="Tugas3_Praktikum5_Prak3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Tugas3_Praktikum6-7_IF_Condition.Designer.vb">
+      <DependentUpon>Tugas3_Praktikum6-7_IF_Condition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum6-7_IF_Condition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum6-7_Nested_IF.Designer.vb">
+      <DependentUpon>Tugas3_Praktikum6-7_Nested_IF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tugas3_Praktikum6-7_Nested_IF.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Tugas3_Praktikum_5_Form2.Designer.vb">
       <DependentUpon>Tugas3_Praktikum_5_Form2.vb</DependentUpon>
     </Compile>
@@ -191,6 +203,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tugas3_Praktikum5_Prak3.resx">
       <DependentUpon>Tugas3_Praktikum5_Prak3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tugas3_Praktikum6-7_IF_Condition.resx">
+      <DependentUpon>Tugas3_Praktikum6-7_IF_Condition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tugas3_Praktikum6-7_Nested_IF.resx">
+      <DependentUpon>Tugas3_Praktikum6-7_Nested_IF.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tugas3_Praktikum_5_Form2.resx">
       <DependentUpon>Tugas3_Praktikum_5_Form2.vb</DependentUpon>
