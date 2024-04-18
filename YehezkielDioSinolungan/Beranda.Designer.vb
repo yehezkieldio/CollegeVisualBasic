@@ -33,11 +33,13 @@ Partial Class Beranda
         Me.OperatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Praktikum67ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PercabanganIFToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PercabanganBersarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LatihanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Latihan2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.PercabanganBersarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Latihan3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Latihan4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -60,27 +62,27 @@ Partial Class Beranda
         'Tugas1ToolStripMenuItem
         '
         Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
-        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
         Me.Tugas1ToolStripMenuItem.Text = "Tugas 1"
         '
         'Tugas2ToolStripMenuItem
         '
         Me.Tugas2ToolStripMenuItem.Name = "Tugas2ToolStripMenuItem"
-        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
         Me.Tugas2ToolStripMenuItem.Text = "Tugas 2"
         '
         'Tugas3ToolStripMenuItem
         '
         Me.Tugas3ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Praktikum5ToolStripMenuItem, Me.Praktikum67ToolStripMenuItem})
         Me.Tugas3ToolStripMenuItem.Name = "Tugas3ToolStripMenuItem"
-        Me.Tugas3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Tugas3ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
         Me.Tugas3ToolStripMenuItem.Text = "Tugas 3"
         '
         'Praktikum5ToolStripMenuItem
         '
         Me.Praktikum5ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LocalVariableToolStripMenuItem, Me.GlobalVariableToolStripMenuItem, Me.OperatorToolStripMenuItem})
         Me.Praktikum5ToolStripMenuItem.Name = "Praktikum5ToolStripMenuItem"
-        Me.Praktikum5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Praktikum5ToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
         Me.Praktikum5ToolStripMenuItem.Text = "Praktikum 5"
         '
         'LocalVariableToolStripMenuItem
@@ -105,7 +107,7 @@ Partial Class Beranda
         '
         Me.Praktikum67ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PercabanganIFToolStripMenuItem, Me.PercabanganBersarangToolStripMenuItem})
         Me.Praktikum67ToolStripMenuItem.Name = "Praktikum67ToolStripMenuItem"
-        Me.Praktikum67ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Praktikum67ToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
         Me.Praktikum67ToolStripMenuItem.Text = "Praktikum 6-7"
         '
         'PercabanganIFToolStripMenuItem
@@ -114,9 +116,15 @@ Partial Class Beranda
         Me.PercabanganIFToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
         Me.PercabanganIFToolStripMenuItem.Text = "Percabangan IF"
         '
+        'PercabanganBersarangToolStripMenuItem
+        '
+        Me.PercabanganBersarangToolStripMenuItem.Name = "PercabanganBersarangToolStripMenuItem"
+        Me.PercabanganBersarangToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.PercabanganBersarangToolStripMenuItem.Text = "Percabangan Bersarang"
+        '
         'LatihanToolStripMenuItem
         '
-        Me.LatihanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Latihan2ToolStripMenuItem})
+        Me.LatihanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Latihan2ToolStripMenuItem, Me.Latihan3ToolStripMenuItem, Me.Latihan4ToolStripMenuItem})
         Me.LatihanToolStripMenuItem.Name = "LatihanToolStripMenuItem"
         Me.LatihanToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
         Me.LatihanToolStripMenuItem.Text = "Latihan"
@@ -124,7 +132,7 @@ Partial Class Beranda
         'Latihan2ToolStripMenuItem
         '
         Me.Latihan2ToolStripMenuItem.Name = "Latihan2ToolStripMenuItem"
-        Me.Latihan2ToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.Latihan2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Latihan2ToolStripMenuItem.Text = "Latihan 2"
         '
         'Label1
@@ -145,11 +153,17 @@ Partial Class Beranda
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Selamat datang di Beranda!"
         '
-        'PercabanganBersarangToolStripMenuItem
+        'Latihan3ToolStripMenuItem
         '
-        Me.PercabanganBersarangToolStripMenuItem.Name = "PercabanganBersarangToolStripMenuItem"
-        Me.PercabanganBersarangToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.PercabanganBersarangToolStripMenuItem.Text = "Percabangan Bersarang"
+        Me.Latihan3ToolStripMenuItem.Name = "Latihan3ToolStripMenuItem"
+        Me.Latihan3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Latihan3ToolStripMenuItem.Text = "Latihan 3"
+        '
+        'Latihan4ToolStripMenuItem
+        '
+        Me.Latihan4ToolStripMenuItem.Name = "Latihan4ToolStripMenuItem"
+        Me.Latihan4ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Latihan4ToolStripMenuItem.Text = "Latihan 4"
         '
         'Beranda
         '
@@ -185,4 +199,6 @@ Partial Class Beranda
     Friend WithEvents Praktikum67ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PercabanganIFToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PercabanganBersarangToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Latihan3ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Latihan4ToolStripMenuItem As ToolStripMenuItem
 End Class

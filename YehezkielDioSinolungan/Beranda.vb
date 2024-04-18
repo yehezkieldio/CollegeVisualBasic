@@ -30,4 +30,12 @@
     Private Sub PercabanganBersarangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PercabanganBersarangToolStripMenuItem.Click
         Tugas3_Praktikum6_7_Nested_IF.Show()
     End Sub
+
+    Private Sub Latihan3ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Latihan3ToolStripMenuItem.Click
+        Latihan3.Show()
+    End Sub
+
+    Private Sub Latihan4ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Latihan4ToolStripMenuItem.Click
+        Latihan4.Show()
+    End Sub
 End Class
