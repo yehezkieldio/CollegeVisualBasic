@@ -101,13 +101,13 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         ' Check if a table has been selected
         If meja = -1 Then
-            MessageBox.Show("Please select a table first.", "No Table Selected", MessageBoxButtons.OK)
+            MessageBox.Show("Pilih meja terdahulu", "Tidak ada Meja", MessageBoxButtons.OK)
             Return
         End If
 
         ' check if the order is empty
         If order.Count = 0 Then
-            MessageBox.Show("Please order at least one item.", "Empty Order", MessageBoxButtons.OK)
+            MessageBox.Show("Harus ada satu orderan", "Tidak ada orderaan", MessageBoxButtons.OK)
             Return
         End If
 
@@ -115,6 +115,12 @@
         Dim totalFormatted As String = total.ToString("C2").Substring(1)
         Dim finalMeja As Integer = meja + 1
         MessageBox.Show("Meja " & finalMeja & " Total Bayar " & totalFormatted, "Konfirmasi Checkout", MessageBoxButtons.OK)
+
+        ' reset the order
+        ListBox1.Items.Clear()
+        order.Clear()
+        Label2.Text = "Total: 0"
+        ComboBox1.SelectedIndex = -1
     End Sub
 
 
