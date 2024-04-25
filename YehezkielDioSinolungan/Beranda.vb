@@ -38,4 +38,12 @@
     Private Sub Latihan4ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Latihan4ToolStripMenuItem.Click
         Latihan4.Show()
     End Sub
+
+    Private Sub TicTacToeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TicTacToeToolStripMenuItem.Click
+        Testing_Test1.Show()
+    End Sub
+
+    Private Sub Latihan5ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Latihan5ToolStripMenuItem.Click
+        Latihan5.Show()
+    End Sub
 End Class

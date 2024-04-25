@@ -104,6 +104,18 @@
     <Compile Include="Latihan4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Latihan5.Designer.vb">
+      <DependentUpon>Latihan5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Latihan5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing_Test1.Designer.vb">
+      <DependentUpon>Testing_Test1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing_Test1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Tugas1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +206,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Latihan4.resx">
       <DependentUpon>Latihan4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Latihan5.resx">
+      <DependentUpon>Latihan5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing_Test1.resx">
+      <DependentUpon>Testing_Test1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tugas1.resx">
       <DependentUpon>Tugas1.vb</DependentUpon>
