@@ -46,4 +46,8 @@
     Private Sub Latihan5ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Latihan5ToolStripMenuItem.Click
         Latihan5.Show()
     End Sub
+
+    Private Sub Latihan6ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Latihan6ToolStripMenuItem.Click
+        Latihan6.Show()
+    End Sub
 End Class

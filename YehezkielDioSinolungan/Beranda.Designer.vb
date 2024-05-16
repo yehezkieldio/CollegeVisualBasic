@@ -38,11 +38,12 @@ Partial Class Beranda
         Me.Latihan2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Latihan3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Latihan4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Latihan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TestingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TicTacToeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Latihan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Latihan6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -127,7 +128,7 @@ Partial Class Beranda
         '
         'LatihanToolStripMenuItem
         '
-        Me.LatihanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Latihan2ToolStripMenuItem, Me.Latihan3ToolStripMenuItem, Me.Latihan4ToolStripMenuItem, Me.Latihan5ToolStripMenuItem})
+        Me.LatihanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Latihan2ToolStripMenuItem, Me.Latihan3ToolStripMenuItem, Me.Latihan4ToolStripMenuItem, Me.Latihan5ToolStripMenuItem, Me.Latihan6ToolStripMenuItem})
         Me.LatihanToolStripMenuItem.Name = "LatihanToolStripMenuItem"
         Me.LatihanToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
         Me.LatihanToolStripMenuItem.Text = "Latihan"
@@ -149,6 +150,12 @@ Partial Class Beranda
         Me.Latihan4ToolStripMenuItem.Name = "Latihan4ToolStripMenuItem"
         Me.Latihan4ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Latihan4ToolStripMenuItem.Text = "Latihan 4"
+        '
+        'Latihan5ToolStripMenuItem
+        '
+        Me.Latihan5ToolStripMenuItem.Name = "Latihan5ToolStripMenuItem"
+        Me.Latihan5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Latihan5ToolStripMenuItem.Text = "Latihan 5"
         '
         'TestingToolStripMenuItem
         '
@@ -181,11 +188,11 @@ Partial Class Beranda
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Selamat datang di Beranda!"
         '
-        'Latihan5ToolStripMenuItem
+        'Latihan6ToolStripMenuItem
         '
-        Me.Latihan5ToolStripMenuItem.Name = "Latihan5ToolStripMenuItem"
-        Me.Latihan5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Latihan5ToolStripMenuItem.Text = "Latihan 5"
+        Me.Latihan6ToolStripMenuItem.Name = "Latihan6ToolStripMenuItem"
+        Me.Latihan6ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Latihan6ToolStripMenuItem.Text = "Latihan 6"
         '
         'Beranda
         '
@@ -226,4 +233,5 @@ Partial Class Beranda
     Friend WithEvents TestingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TicTacToeToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Latihan5ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Latihan6ToolStripMenuItem As ToolStripMenuItem
 End Class
